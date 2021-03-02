@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="con">
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">RACHIT</a>
+            </div>
+            <nav>
+                <ul id="menuitems" >
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="products.html" >Products</a></li>
+                    
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="account.html" >Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt=""></a>
+
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="">
+
+        </div>
+        
+            
+    </div>
+
+  
+
+    
+    <div class="contact-page">
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <form action="">
+                <input type="email" placeholder="email">
+                <input type="text" placeholder="name">
+                <textarea name="" placeholder="your message here" id="" cols="30" rows="10"></textarea>
+                <button>submit</button>
+            </form>
+        </div>
+    </div>
+
+    
+       
+
+    
+    
+
+    <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, repudiandae.</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/rachit.png" alt="">
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021-Rachit</p>
+            </div>
+    </div>
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px"){
+                menuitems.style.maxHeight = "200px"
+            }
+            else{
+                menuitems.style.maxHeight="0px"
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
